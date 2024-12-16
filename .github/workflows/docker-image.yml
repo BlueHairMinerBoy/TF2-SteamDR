@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag tf2-steamdr:$(date +%s)
+      run: docker build . --file bookworm/x64/Dockerfile --tag tf2-steamdr:$(date +%s)
