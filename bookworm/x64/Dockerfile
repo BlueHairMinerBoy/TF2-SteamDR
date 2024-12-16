@@ -59,6 +59,7 @@ ENV SRCDS_FPSMAX=300 \
 	SRCDS_CFG="server.cfg" \
 	SRCDS_MAPCYCLE="mapcycle.txt" \
 	SRCDS_SECURED=1
+	SRCDS_SDRENABLED=0
 
 # Switch to user
 USER ${USER}
